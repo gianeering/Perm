@@ -1,0 +1,13 @@
+name = "Perm"
+uuid = "b2ba0608-889a-430a-8905-25a56e385d98"
+authors = ["Gianfranco Ponza"]
+version = "1.0.0"
+
+[compat]
+julia = "1.8.1"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]

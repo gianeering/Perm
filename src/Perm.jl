@@ -15,7 +15,7 @@ module Perm
   end
 
   """
-  moveleft! moves the left-most character towards the beginning of the string.
+  moveleft! moves the right-most character towards the beginning of the string.
   """
   function moveleft!(word::String,out::AbstractVector = [])
       k = length(word)
